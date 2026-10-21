@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "created_date": "2026-10-20",
+  "purpose": "character_visual_discussion_templates",
+  "production_ready": false,
+  "requested_model_labels": [
+    "Image 2",
+    "Image 2.5 (Tang frontal revision)"
+  ],
+  "actual_tool": "image_gen.imagegen",
+  "verified_model_version": null,
+  "model_note": "Tool exposes no model/version selector; requested labels were not verified.",
+  "art_direction": "Restrained coarse pixel art based on existing IP Please / Papers, Please style board",
+  "nominal_bust_design_grid": [
+    64,
+    80
+  ],
+  "native_grid_alignment_verified": false,
+  "game_window_verified": false,
+  "current_asset_groups": 6,
+  "generated_png_count": 6,
+  "current_tang_file": "M04-tang-jie-front-v3.png",
+  "family_choice": "A_human_face_in_terminal",
+  "player_visible_guard_names": false,
+  "source_notes": "SOURCE-REFERENCES.md",
+  "prompt_notes": [
+    "PROMPTS.md",
+    "TANG-FRONTAL-PROMPT.md"
+  ],
+  "assets": [
+    {
+      "file": "M01-liang-blue-suit-v2.png",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 952031,
+      "sha256": "EED589EDA2B3E8B5C31B2572860596FD49CF9953D147340820EB48A57F12ABEC",
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "character_id": "M01",
+      "name": "蓝西装版梁",
+      "current": true,
+      "superseded_by": null,
+      "transparent_background_requested": true,
+      "references": [
+        "references/liang-user-reference.png",
+        "../character-templates-v1/05-coarse-pixel-style-v2.png"
+      ],
+      "notes": null
+    },
+    {
+      "file": "M03-yang-zhilin-v2.png",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 898234,
+      "sha256": "19930E16D5D5CF57D76ADDADF65F3BC177971A5CF4ACBCB96F67D6203F3EB76F",
+      "corner_alpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "character_id": "M03",
+      "name": "杨植麟",
+      "current": true,
+      "superseded_by": null,
+      "transparent_background_requested": true,
+      "references": [
+        "references/yang-zhilin-user-reference.webp",
+        "../character-templates-v1/05-coarse-pixel-style-v2.png"
+      ],
+      "notes": null
+    },
+    {
+      "file": "M04-tang-jie-front-v3.png",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 999006,
+      "sha256": "481EF327883B2E40B63BD839F14E375A4FB7EAD27772750D862A5E1BF83DD6B7",
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "character_id": "M04",
+      "name": "唐杰",
+      "current": true,
+      "superseded_by": null,
+      "transparent_background_requested": true,
+      "references": [
+        "references/tang-jie-user-reference.png",
+        "../character-templates-v1/05-coarse-pixel-style-v2.png"
+      ],
+      "notes": "Approved frontal pose. Side-facing intermediate input was deleted from project at user's request."
+    },
+    {
+      "file": "M08-da-fei-yu-character-v2.png",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 1390764,
+      "sha256": "F4233FE71B78908CE6240861DBA217BB0CACD4454ED18CA2361B1058268E6BE3",
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "character_id": "M08",
+      "name": "大肥鱼新形态",
+      "current": true,
+      "superseded_by": null,
+      "transparent_background_requested": true,
+      "references": [
+        "references/da-fei-yu-user-reference.png",
+        "../character-templates-v1/05-coarse-pixel-style-v2.png"
+      ],
+      "notes": null
+    },
+    {
+      "file": "N07-elon-musk-v1.png",
+      "width": 1122,
+      "height": 1402,
+      "bytes": 1067493,
+      "sha256": "849DD65034B4AB9ACC2E24FFB1959882681AA56910C73845E0A963AE66027BB3",
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "character_id": "N07",
+      "name": "马斯克",
+      "current": true,
+      "superseded_by": null,
+      "transparent_background_requested": true,
+      "references": [
+        "references/elon-musk-2022-reference.jpg",
+        "../character-templates-v1/05-coarse-pixel-style-v2.png"
+      ],
+      "notes": null
+    },
+    {
+      "file": "W-masked-security-variants-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1291850,
+      "sha256": "FC970F408FBEAA3FBD49B2831536798F04A80DA115D09ABAAE0E2000B8B9E4F3",
+      "corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "character_id": "W",
+      "name": "匿名蒙面守卫",
+      "current": true,
+      "superseded_by": null,
+      "transparent_background_requested": true,
+      "references": [
+        "../character-templates-v1/05-coarse-pixel-style-v2.png"
+      ],
+      "notes": "W00 gray / W01 dark green / W02 gray; bust row and full-body row."
+    }
+  ],
+  "historical_generation_count": 7,
+  "art_direction_approved": true,
+  "family_visual_approved": true,
+  "side_portrait_deleted_from_project": true
+}
+

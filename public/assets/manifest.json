@@ -1,0 +1,691 @@
+{
+  "schemaVersion": 1,
+  "sheets": {
+    "engineers": {
+      "file": "portraits/engineers.png",
+      "source": "docs/design-discussion/assets/character-templates-v1/02-ordinary-engineers-v1.png",
+      "origin": "Built-in image_gen, approved P01-P12 appearance sheet, 2026-10-20",
+      "width": 1254,
+      "height": 1254
+    },
+    "family": {
+      "file": "portraits/family.png",
+      "source": "docs/design-discussion/assets/character-templates-v1/04-family-comparison-v1.png",
+      "origin": "Built-in image_gen, approved A00-A04 terminal faces only, 2026-10-20",
+      "width": 1448,
+      "height": 1086
+    },
+    "security": {
+      "file": "portraits/security.png",
+      "source": "docs/design-discussion/assets/character-templates-v2/W-masked-security-variants-v2.png",
+      "origin": "Built-in image_gen, approved grey masked W00, 2026-10-20",
+      "width": 1536,
+      "height": 1024
+    },
+    "story": {
+      "file": "portraits/story.png",
+      "source": "docs/design-discussion/assets/character-templates-v1/01-story-contacts-v1.png",
+      "origin": "Built-in image_gen, existing M02 appearance sheet; source preserved, 2026-10-20",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "53c9ae0e2cbcf2433c7f0637beca2fd6084529b198cfb0cb9b6e00f81c72a28f"
+    },
+    "engineersV2": {
+      "file": "portraits/engineers-v2.png",
+      "source": "docs/validation/2026-10-21-window-life.md",
+      "origin": "Built-in image_gen, 12 new fictional engineers, 2026-10-21; uniform 4 by 3 crop atlas",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9620adc972b2491c47077ac74fb95011665f36a41d1f1788cb64797e3341e073"
+    },
+    "comic": {
+      "file": "portraits/old-qiao.png",
+      "source": "docs/validation/2026-10-21-press-and-desk.md",
+      "origin": "Built-in imagegen, original comic repairman, 2026-10-21",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "f1cb651f9a1221d3d27c56d18910e666126515ac008ad7c95b17f33a57d073c3"
+    },
+    "M01": {
+      "file": "portraits/M01-liang-blue-suit-v2.png",
+      "source": "docs/design-discussion/assets/character-templates-v2/M01-liang-blue-suit-v2.png",
+      "origin": "Approved fictional portrait, integrated 2026-10-21",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "eed589eda2b3e8b5c31b2572860596fd49cf9953d147340820eb48a57f12abec"
+    },
+    "M03": {
+      "file": "portraits/M03-yang-zhilin-v2.png",
+      "source": "docs/design-discussion/assets/character-templates-v2/M03-yang-zhilin-v2.png",
+      "origin": "Approved fictional portrait, integrated 2026-10-21",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "19930e16d5d5cf57d76addadf65f3bc177971a5cf4acbcb96f67d6203f3eb76f"
+    },
+    "M04": {
+      "file": "portraits/M04-tang-jie-front-v3.png",
+      "source": "docs/design-discussion/assets/character-templates-v2/M04-tang-jie-front-v3.png",
+      "origin": "Approved fictional portrait, integrated 2026-10-21",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "481ef327883b2e40b63bd839f14e375a4fb7ead27772750d862a5e1bf83dd6b7"
+    },
+    "M08": {
+      "file": "portraits/M08-da-fei-yu-character-v2.png",
+      "source": "docs/design-discussion/assets/character-templates-v2/M08-da-fei-yu-character-v2.png",
+      "origin": "Built-in image_gen, user-approved existing character sheet, integrated 2026-10-21",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "f4233fe71b78908ce6240861dba217bb0cacd4454ed18ca2361b1058268e6be3"
+    },
+    "N07": {
+      "file": "portraits/N07-elon-musk-v1.png",
+      "source": "docs/design-discussion/assets/character-templates-v2/N07-elon-musk-v1.png",
+      "origin": "Built-in image_gen, user-approved existing character sheet, integrated 2026-10-21",
+      "width": 1122,
+      "height": 1402,
+      "sha256": "849dd65034b4ab9acc2e24ffb1959882681aa56910c73845e0a963ae66027bb3"
+    },
+    "cameos": {
+      "file": "portraits/cameos.png",
+      "source": "docs/design-discussion/assets/character-templates-v1/03-cameos-and-guards-v1.png",
+      "origin": "Built-in image_gen, approved fictional N01-N06 likenesses; full source preserved",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "77eb4f40617bc51e9cf5d1340af85f20f4cb941b7a41dff8e7f478fc62a5c06b"
+    }
+  },
+  "portraits": {
+    "P01": {
+      "sheet": "engineers",
+      "rect": {
+        "x": 28,
+        "y": 44,
+        "width": 279,
+        "height": 332
+      },
+      "native": [
+        279,
+        332
+      ],
+      "presentation": "male"
+    },
+    "P02": {
+      "sheet": "engineers",
+      "rect": {
+        "x": 340,
+        "y": 44,
+        "width": 274,
+        "height": 332
+      },
+      "native": [
+        274,
+        332
+      ],
+      "presentation": "female"
+    },
+    "P03": {
+      "sheet": "engineers",
+      "rect": {
+        "x": 640,
+        "y": 44,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "male"
+    },
+    "P04": {
+      "sheet": "engineers",
+      "rect": {
+        "x": 953,
+        "y": 44,
+        "width": 276,
+        "height": 332
+      },
+      "native": [
+        276,
+        332
+      ],
+      "presentation": "male"
+    },
+    "P05": {
+      "sheet": "engineers",
+      "rect": {
+        "x": 28,
+        "y": 437,
+        "width": 279,
+        "height": 332
+      },
+      "native": [
+        279,
+        332
+      ],
+      "presentation": "female"
+    },
+    "P06": {
+      "sheet": "engineers",
+      "rect": {
+        "x": 340,
+        "y": 437,
+        "width": 274,
+        "height": 332
+      },
+      "native": [
+        274,
+        332
+      ],
+      "presentation": "male"
+    },
+    "P08": {
+      "sheet": "engineers",
+      "rect": {
+        "x": 953,
+        "y": 437,
+        "width": 276,
+        "height": 332
+      },
+      "native": [
+        276,
+        332
+      ],
+      "presentation": "male"
+    },
+    "P11": {
+      "sheet": "engineers",
+      "rect": {
+        "x": 640,
+        "y": 835,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "male"
+    },
+    "player": {
+      "sheet": "family",
+      "rect": {
+        "x": 24,
+        "y": 45,
+        "width": 270,
+        "height": 280
+      },
+      "native": [
+        270,
+        280
+      ]
+    },
+    "father": {
+      "sheet": "family",
+      "rect": {
+        "x": 310,
+        "y": 45,
+        "width": 270,
+        "height": 280
+      },
+      "native": [
+        270,
+        280
+      ]
+    },
+    "mother": {
+      "sheet": "family",
+      "rect": {
+        "x": 595,
+        "y": 45,
+        "width": 270,
+        "height": 280
+      },
+      "native": [
+        270,
+        280
+      ]
+    },
+    "wife": {
+      "sheet": "family",
+      "rect": {
+        "x": 877,
+        "y": 45,
+        "width": 270,
+        "height": 280
+      },
+      "native": [
+        270,
+        280
+      ]
+    },
+    "son": {
+      "sheet": "family",
+      "rect": {
+        "x": 1161,
+        "y": 45,
+        "width": 270,
+        "height": 280
+      },
+      "native": [
+        270,
+        280
+      ]
+    },
+    "guard": {
+      "sheet": "security",
+      "rect": {
+        "x": 235,
+        "y": 426,
+        "width": 250,
+        "height": 572
+      },
+      "native": [
+        250,
+        572
+      ]
+    },
+    "P07": {
+      "sheet": "engineers",
+      "rect": {
+        "x": 640,
+        "y": 437,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "female"
+    },
+    "P09": {
+      "sheet": "engineers",
+      "rect": {
+        "x": 28,
+        "y": 835,
+        "width": 279,
+        "height": 332
+      },
+      "native": [
+        279,
+        332
+      ],
+      "presentation": "female"
+    },
+    "P10": {
+      "sheet": "engineers",
+      "rect": {
+        "x": 340,
+        "y": 835,
+        "width": 274,
+        "height": 332
+      },
+      "native": [
+        274,
+        332
+      ],
+      "presentation": "female"
+    },
+    "P12": {
+      "sheet": "engineers",
+      "rect": {
+        "x": 953,
+        "y": 835,
+        "width": 276,
+        "height": 332
+      },
+      "native": [
+        276,
+        332
+      ],
+      "presentation": "male"
+    },
+    "M02": {
+      "sheet": "story",
+      "rect": {
+        "x": 456,
+        "y": 56,
+        "width": 330,
+        "height": 395
+      },
+      "native": [
+        330,
+        395
+      ]
+    },
+    "P13": {
+      "sheet": "engineersV2",
+      "rect": {
+        "x": 18,
+        "y": 34,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "male"
+    },
+    "P14": {
+      "sheet": "engineersV2",
+      "rect": {
+        "x": 332,
+        "y": 34,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "female"
+    },
+    "P15": {
+      "sheet": "engineersV2",
+      "rect": {
+        "x": 645,
+        "y": 34,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "male"
+    },
+    "P16": {
+      "sheet": "engineersV2",
+      "rect": {
+        "x": 958,
+        "y": 34,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "male"
+    },
+    "P17": {
+      "sheet": "engineersV2",
+      "rect": {
+        "x": 18,
+        "y": 452,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "female"
+    },
+    "P18": {
+      "sheet": "engineersV2",
+      "rect": {
+        "x": 332,
+        "y": 452,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "male"
+    },
+    "P19": {
+      "sheet": "engineersV2",
+      "rect": {
+        "x": 645,
+        "y": 452,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "female"
+    },
+    "P20": {
+      "sheet": "engineersV2",
+      "rect": {
+        "x": 958,
+        "y": 452,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "male"
+    },
+    "P21": {
+      "sheet": "engineersV2",
+      "rect": {
+        "x": 18,
+        "y": 870,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "male"
+    },
+    "P22": {
+      "sheet": "engineersV2",
+      "rect": {
+        "x": 332,
+        "y": 870,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "female"
+    },
+    "P23": {
+      "sheet": "engineersV2",
+      "rect": {
+        "x": 645,
+        "y": 870,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "male"
+    },
+    "P24": {
+      "sheet": "engineersV2",
+      "rect": {
+        "x": 958,
+        "y": 870,
+        "width": 280,
+        "height": 332
+      },
+      "native": [
+        280,
+        332
+      ],
+      "presentation": "female"
+    },
+    "Q01": {
+      "sheet": "comic",
+      "rect": {
+        "x": 195,
+        "y": 48,
+        "width": 864,
+        "height": 1090
+      },
+      "native": [
+        864,
+        1090
+      ],
+      "presentation": "male"
+    },
+    "M01": {
+      "sheet": "M01",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1122,
+        "height": 1402
+      },
+      "native": [
+        1122,
+        1402
+      ]
+    },
+    "M03": {
+      "sheet": "M03",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1122,
+        "height": 1402
+      },
+      "native": [
+        1122,
+        1402
+      ]
+    },
+    "M04": {
+      "sheet": "M04",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1122,
+        "height": 1402
+      },
+      "native": [
+        1122,
+        1402
+      ]
+    },
+    "M08": {
+      "sheet": "M08",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 1536
+      },
+      "native": [
+        1024,
+        1536
+      ]
+    },
+    "N07": {
+      "sheet": "N07",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1122,
+        "height": 1402
+      },
+      "native": [
+        1122,
+        1402
+      ]
+    },
+    "N01": {
+      "sheet": "cameos",
+      "rect": {
+        "x": 55,
+        "y": 40,
+        "width": 354,
+        "height": 350
+      },
+      "native": [
+        354,
+        350
+      ]
+    },
+    "N02": {
+      "sheet": "cameos",
+      "rect": {
+        "x": 458,
+        "y": 40,
+        "width": 356,
+        "height": 350
+      },
+      "native": [
+        356,
+        350
+      ]
+    },
+    "N03": {
+      "sheet": "cameos",
+      "rect": {
+        "x": 850,
+        "y": 40,
+        "width": 350,
+        "height": 350
+      },
+      "native": [
+        350,
+        350
+      ]
+    },
+    "N04": {
+      "sheet": "cameos",
+      "rect": {
+        "x": 55,
+        "y": 442,
+        "width": 354,
+        "height": 333
+      },
+      "native": [
+        354,
+        333
+      ]
+    },
+    "N05": {
+      "sheet": "cameos",
+      "rect": {
+        "x": 458,
+        "y": 442,
+        "width": 356,
+        "height": 333
+      },
+      "native": [
+        356,
+        333
+      ]
+    },
+    "N06": {
+      "sheet": "cameos",
+      "rect": {
+        "x": 850,
+        "y": 442,
+        "width": 350,
+        "height": 333
+      },
+      "native": [
+        350,
+        333
+      ]
+    }
+  },
+  "font": {
+    "file": "fonts/fusion-pixel.ttf",
+    "source": ".superpowers/reference/fusion-pixel-12px-zh_hans.ttf",
+    "license": "SIL OFL 1.1",
+    "licenseFile": "licenses/OFL-fusion-pixel.txt"
+  },
+  "runtime": "Source-rectangle extraction into native-resolution canvas caches (no 84x100 pre-shrink); high-quality scaling at the high-DPI render stage. Source sheets, rectangles, and licenses remain unchanged. No remote assets, network identity or speech services."
+}

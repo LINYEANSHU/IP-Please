@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-20",
+  "purpose": "Character appearance review, not production sprites",
+  "generator": "built-in image_gen",
+  "named_character_positions": 33,
+  "additional_open_model_form": 1,
+  "family_choice": "Both alternatives requested; A/B not yet selected",
+  "production_ready": false,
+  "uniform_native_pixel_grid_verified": false,
+  "transparent_sprite_export_complete": false,
+  "product_runtime_verified": false,
+  "visual_review": {
+    "first_pass": "Four sheets inspected; facial shading too detailed for final game density",
+    "bounded_correction": "One additional eight-cell coarse-pixel style sheet generated and inspected",
+    "remaining": "Rebuild approved concepts on a common native grid with expressions and clean alpha, then verify inside actual window"
+  },
+  "files": [
+    {
+      "file": "01-story-contacts-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "53C9AE0E2CBCF2433C7F0637BECA2FD6084529B198CFB0CB9B6E00F81C72A28F",
+      "cells": [
+        "M01",
+        "M02",
+        "M03",
+        "M04",
+        "M05",
+        "M06",
+        "M07",
+        "M08"
+      ]
+    },
+    {
+      "file": "02-ordinary-engineers-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "F7B4D1C13F1A853DF1B8895AF6B7F39F862EA462703554918498E211806D0825",
+      "cells": [
+        "P01",
+        "P02",
+        "P03",
+        "P04",
+        "P05",
+        "P06",
+        "P07",
+        "P08",
+        "P09",
+        "P10",
+        "P11",
+        "P12"
+      ]
+    },
+    {
+      "file": "03-cameos-and-guards-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "77EB4F40617BC51E9CF5D1340AF85F20F4CB941B7A41DFF8E7F478FC62A5C06B",
+      "cells": [
+        "N01",
+        "N02",
+        "N03",
+        "N04",
+        "N05",
+        "N06",
+        "W00",
+        "W01",
+        "W02"
+      ]
+    },
+    {
+      "file": "04-family-comparison-v1.png",
+      "width": 1448,
+      "height": 1086,
+      "sha256": "7E2CE4CB7B5B8E9ED64FA94E9A827BED68BBD665CFB43EAAA21C0712ED1C3060",
+      "cells": [
+        "A00",
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "B00",
+        "B01",
+        "B02",
+        "B03",
+        "B04",
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ]
+    },
+    {
+      "file": "05-coarse-pixel-style-v2.png",
+      "width": 1536,
+      "height": 1024,
+      "sha256": "F5CB68384BB5FB9AD7DA90C91DD4E97B47F8D2A3518948566AD4E76FBB0DA71B",
+      "cells": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T08"
+      ]
+    }
+  ],
+  "rough_id_mapping": {
+    "T01": "M01",
+    "T02": "M02",
+    "T03": "P01",
+    "T04": "P02",
+    "T05": "W01",
+    "T06": "N01",
+    "T07": "A01",
+    "T08": "B01"
+  },
+  "prompts": [
+    "PROMPTS.md",
+    "ROUGH-PROMPT.md"
+  ],
+  "source_reference": "../../../../.superpowers/reference/stamp-preview/proof.png",
+  "source_copy_sha256_verified": true
+}

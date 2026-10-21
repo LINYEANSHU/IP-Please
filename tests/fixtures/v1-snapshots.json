@@ -1,0 +1,3089 @@
+{
+  "standard-newspaper": {
+    "schemaVersion": 1,
+    "revision": 0,
+    "runId": "legacy-standard",
+    "mode": "standard",
+    "day": 1,
+    "phase": "newspaper",
+    "caseIndex": -1,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [],
+    "decisions": {},
+    "dialogueLine": 0,
+    "started": false,
+    "remainingMs": 60000,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "cover",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 20,
+    "ledger": [],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": false,
+    "supply": null,
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [],
+    "ending": null
+  },
+  "standard-briefing": {
+    "schemaVersion": 1,
+    "revision": 1,
+    "runId": "legacy-standard",
+    "mode": "standard",
+    "day": 1,
+    "phase": "desk",
+    "caseIndex": -1,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [],
+    "decisions": {},
+    "dialogueLine": 0,
+    "started": false,
+    "remainingMs": 60000,
+    "pauses": [
+      "briefing"
+    ],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "cover",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 20,
+    "ledger": [],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": false,
+    "supply": null,
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-0"
+    ],
+    "ending": null
+  },
+  "standard-active": {
+    "schemaVersion": 1,
+    "revision": 4,
+    "runId": "legacy-standard",
+    "mode": "standard",
+    "day": 1,
+    "phase": "desk",
+    "caseIndex": 0,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [],
+    "decisions": {},
+    "dialogueLine": 0,
+    "started": true,
+    "remainingMs": 60000,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "cover",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 20,
+    "ledger": [],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": false,
+    "supply": null,
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-0",
+      "gold-1",
+      "gold-2",
+      "gold-3"
+    ],
+    "ending": null
+  },
+  "standard-stamped": {
+    "schemaVersion": 1,
+    "revision": 5,
+    "runId": "legacy-standard",
+    "mode": "standard",
+    "day": 1,
+    "phase": "returning",
+    "caseIndex": 0,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [],
+    "decisions": {
+      "D01-S01": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      }
+    },
+    "dialogueLine": 0,
+    "started": true,
+    "remainingMs": 60000,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "inside",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 25,
+    "ledger": [
+      {
+        "id": "case:D01-S01:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S01",
+        "ruleVersion": "V01"
+      }
+    ],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": false,
+    "supply": null,
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-0",
+      "gold-1",
+      "gold-2",
+      "gold-3",
+      "gold-4"
+    ],
+    "ending": null
+  },
+  "standard-night-unpaid": {
+    "schemaVersion": 1,
+    "revision": 27,
+    "runId": "legacy-standard",
+    "mode": "standard",
+    "day": 1,
+    "phase": "night",
+    "caseIndex": 7,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "decisions": {
+      "D01-S01": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S02": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S03": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S04": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S05": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S06": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S07": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S08": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      }
+    },
+    "dialogueLine": 0,
+    "started": true,
+    "remainingMs": 60000,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "inside",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 60,
+    "ledger": [
+      {
+        "id": "case:D01-S01:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S01",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S02:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S02",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S03:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S03",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S04:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S04",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S05:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S05",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S06:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S06",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S07:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S07",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S08:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S08",
+        "ruleVersion": "V01"
+      }
+    ],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": false,
+    "supply": null,
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-0",
+      "gold-1",
+      "gold-2",
+      "gold-3",
+      "gold-4",
+      "gold-5",
+      "gold-6",
+      "gold-7",
+      "gold-8",
+      "gold-9",
+      "gold-10",
+      "gold-11",
+      "gold-12",
+      "gold-13",
+      "gold-14",
+      "gold-15",
+      "gold-16",
+      "gold-17",
+      "gold-18",
+      "gold-19",
+      "gold-20",
+      "gold-21",
+      "gold-22",
+      "gold-23",
+      "gold-24",
+      "gold-25",
+      "gold-26"
+    ],
+    "ending": null
+  },
+  "standard-night-paid": {
+    "schemaVersion": 1,
+    "revision": 28,
+    "runId": "legacy-standard",
+    "mode": "standard",
+    "day": 1,
+    "phase": "night",
+    "caseIndex": 7,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "decisions": {
+      "D01-S01": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S02": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S03": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S04": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S05": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S06": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S07": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S08": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      }
+    },
+    "dialogueLine": 0,
+    "started": true,
+    "remainingMs": 60000,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "inside",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 40,
+    "ledger": [
+      {
+        "id": "case:D01-S01:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S01",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S02:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S02",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S03:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S03",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S04:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S04",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S05:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S05",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S06:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S06",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S07:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S07",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S08:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S08",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "day:1:salary",
+        "kind": "salary",
+        "amount": 0
+      },
+      {
+        "id": "day:1:rent",
+        "kind": "rent",
+        "amount": -20
+      }
+    ],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": true,
+    "supply": null,
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-0",
+      "gold-1",
+      "gold-2",
+      "gold-3",
+      "gold-4",
+      "gold-5",
+      "gold-6",
+      "gold-7",
+      "gold-8",
+      "gold-9",
+      "gold-10",
+      "gold-11",
+      "gold-12",
+      "gold-13",
+      "gold-14",
+      "gold-15",
+      "gold-16",
+      "gold-17",
+      "gold-18",
+      "gold-19",
+      "gold-20",
+      "gold-21",
+      "gold-22",
+      "gold-23",
+      "gold-24",
+      "gold-25",
+      "gold-26"
+    ],
+    "ending": null
+  },
+  "standard-family": {
+    "schemaVersion": 1,
+    "revision": 29,
+    "runId": "legacy-standard",
+    "mode": "standard",
+    "day": 1,
+    "phase": "family",
+    "caseIndex": 7,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "decisions": {
+      "D01-S01": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S02": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S03": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S04": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S05": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S06": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S07": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S08": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      }
+    },
+    "dialogueLine": 0,
+    "started": true,
+    "remainingMs": 60000,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "inside",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 0,
+    "ledger": [
+      {
+        "id": "case:D01-S01:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S01",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S02:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S02",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S03:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S03",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S04:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S04",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S05:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S05",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S06:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S06",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S07:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S07",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S08:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S08",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "day:1:salary",
+        "kind": "salary",
+        "amount": 0
+      },
+      {
+        "id": "day:1:rent",
+        "kind": "rent",
+        "amount": -20
+      },
+      {
+        "id": "day:1:electricity",
+        "kind": "electricity",
+        "amount": -20
+      },
+      {
+        "id": "day:1:tokens",
+        "kind": "tokens",
+        "amount": -20
+      }
+    ],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": true,
+    "supply": {
+      "electricity": true,
+      "tokens": true
+    },
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-0",
+      "gold-1",
+      "gold-2",
+      "gold-3",
+      "gold-4",
+      "gold-5",
+      "gold-6",
+      "gold-7",
+      "gold-8",
+      "gold-9",
+      "gold-10",
+      "gold-11",
+      "gold-12",
+      "gold-13",
+      "gold-14",
+      "gold-15",
+      "gold-16",
+      "gold-17",
+      "gold-18",
+      "gold-19",
+      "gold-20",
+      "gold-21",
+      "gold-22",
+      "gold-23",
+      "gold-24",
+      "gold-25",
+      "gold-26",
+      "gold-28"
+    ],
+    "ending": null
+  },
+  "standard-next-day": {
+    "schemaVersion": 1,
+    "revision": 30,
+    "runId": "legacy-standard",
+    "mode": "standard",
+    "day": 2,
+    "phase": "next-day",
+    "caseIndex": 7,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "decisions": {
+      "D01-S01": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S02": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S03": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S04": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S05": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S06": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S07": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S08": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      }
+    },
+    "dialogueLine": 0,
+    "started": true,
+    "remainingMs": 60000,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "inside",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 0,
+    "ledger": [
+      {
+        "id": "case:D01-S01:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S01",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S02:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S02",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S03:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S03",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S04:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S04",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S05:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S05",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S06:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S06",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S07:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S07",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S08:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S08",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "day:1:salary",
+        "kind": "salary",
+        "amount": 0
+      },
+      {
+        "id": "day:1:rent",
+        "kind": "rent",
+        "amount": -20
+      },
+      {
+        "id": "day:1:electricity",
+        "kind": "electricity",
+        "amount": -20
+      },
+      {
+        "id": "day:1:tokens",
+        "kind": "tokens",
+        "amount": -20
+      }
+    ],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": true,
+    "supply": {
+      "electricity": true,
+      "tokens": true
+    },
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-0",
+      "gold-1",
+      "gold-2",
+      "gold-3",
+      "gold-4",
+      "gold-5",
+      "gold-6",
+      "gold-7",
+      "gold-8",
+      "gold-9",
+      "gold-10",
+      "gold-11",
+      "gold-12",
+      "gold-13",
+      "gold-14",
+      "gold-15",
+      "gold-16",
+      "gold-17",
+      "gold-18",
+      "gold-19",
+      "gold-20",
+      "gold-21",
+      "gold-22",
+      "gold-23",
+      "gold-24",
+      "gold-25",
+      "gold-26",
+      "gold-28",
+      "gold-29"
+    ],
+    "ending": null
+  },
+  "relaxed-newspaper": {
+    "schemaVersion": 1,
+    "revision": 0,
+    "runId": "legacy-relaxed",
+    "mode": "relaxed",
+    "day": 1,
+    "phase": "newspaper",
+    "caseIndex": -1,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [],
+    "decisions": {},
+    "dialogueLine": 0,
+    "started": false,
+    "remainingMs": 60000,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "cover",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 50,
+    "ledger": [],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": false,
+    "supply": null,
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [],
+    "ending": null
+  },
+  "relaxed-briefing": {
+    "schemaVersion": 1,
+    "revision": 1,
+    "runId": "legacy-relaxed",
+    "mode": "relaxed",
+    "day": 1,
+    "phase": "desk",
+    "caseIndex": -1,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [],
+    "decisions": {},
+    "dialogueLine": 0,
+    "started": false,
+    "remainingMs": 60000,
+    "pauses": [
+      "briefing"
+    ],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "cover",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 50,
+    "ledger": [],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": false,
+    "supply": null,
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-30"
+    ],
+    "ending": null
+  },
+  "relaxed-active": {
+    "schemaVersion": 1,
+    "revision": 4,
+    "runId": "legacy-relaxed",
+    "mode": "relaxed",
+    "day": 1,
+    "phase": "desk",
+    "caseIndex": 0,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [],
+    "decisions": {},
+    "dialogueLine": 0,
+    "started": true,
+    "remainingMs": 60000,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "cover",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 50,
+    "ledger": [],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": false,
+    "supply": null,
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-30",
+      "gold-31",
+      "gold-32",
+      "gold-33"
+    ],
+    "ending": null
+  },
+  "relaxed-stamped": {
+    "schemaVersion": 1,
+    "revision": 5,
+    "runId": "legacy-relaxed",
+    "mode": "relaxed",
+    "day": 1,
+    "phase": "returning",
+    "caseIndex": 0,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [],
+    "decisions": {
+      "D01-S01": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      }
+    },
+    "dialogueLine": 0,
+    "started": true,
+    "remainingMs": 60000,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "inside",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 55,
+    "ledger": [
+      {
+        "id": "case:D01-S01:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S01",
+        "ruleVersion": "V01"
+      }
+    ],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": false,
+    "supply": null,
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-30",
+      "gold-31",
+      "gold-32",
+      "gold-33",
+      "gold-34"
+    ],
+    "ending": null
+  },
+  "relaxed-night-unpaid": {
+    "schemaVersion": 1,
+    "revision": 27,
+    "runId": "legacy-relaxed",
+    "mode": "relaxed",
+    "day": 1,
+    "phase": "night",
+    "caseIndex": 7,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "decisions": {
+      "D01-S01": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S02": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S03": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S04": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S05": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S06": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S07": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S08": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      }
+    },
+    "dialogueLine": 0,
+    "started": true,
+    "remainingMs": 60000,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "inside",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 90,
+    "ledger": [
+      {
+        "id": "case:D01-S01:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S01",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S02:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S02",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S03:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S03",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S04:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S04",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S05:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S05",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S06:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S06",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S07:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S07",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S08:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S08",
+        "ruleVersion": "V01"
+      }
+    ],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": false,
+    "supply": null,
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-30",
+      "gold-31",
+      "gold-32",
+      "gold-33",
+      "gold-34",
+      "gold-35",
+      "gold-36",
+      "gold-37",
+      "gold-38",
+      "gold-39",
+      "gold-40",
+      "gold-41",
+      "gold-42",
+      "gold-43",
+      "gold-44",
+      "gold-45",
+      "gold-46",
+      "gold-47",
+      "gold-48",
+      "gold-49",
+      "gold-50",
+      "gold-51",
+      "gold-52",
+      "gold-53",
+      "gold-54",
+      "gold-55",
+      "gold-56"
+    ],
+    "ending": null
+  },
+  "relaxed-night-paid": {
+    "schemaVersion": 1,
+    "revision": 28,
+    "runId": "legacy-relaxed",
+    "mode": "relaxed",
+    "day": 1,
+    "phase": "night",
+    "caseIndex": 7,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "decisions": {
+      "D01-S01": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S02": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S03": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S04": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S05": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S06": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S07": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S08": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      }
+    },
+    "dialogueLine": 0,
+    "started": true,
+    "remainingMs": 60000,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "inside",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 80,
+    "ledger": [
+      {
+        "id": "case:D01-S01:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S01",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S02:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S02",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S03:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S03",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S04:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S04",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S05:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S05",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S06:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S06",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S07:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S07",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S08:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S08",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "day:1:salary",
+        "kind": "salary",
+        "amount": 10
+      },
+      {
+        "id": "day:1:rent",
+        "kind": "rent",
+        "amount": -20
+      }
+    ],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": true,
+    "supply": null,
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-30",
+      "gold-31",
+      "gold-32",
+      "gold-33",
+      "gold-34",
+      "gold-35",
+      "gold-36",
+      "gold-37",
+      "gold-38",
+      "gold-39",
+      "gold-40",
+      "gold-41",
+      "gold-42",
+      "gold-43",
+      "gold-44",
+      "gold-45",
+      "gold-46",
+      "gold-47",
+      "gold-48",
+      "gold-49",
+      "gold-50",
+      "gold-51",
+      "gold-52",
+      "gold-53",
+      "gold-54",
+      "gold-55",
+      "gold-56"
+    ],
+    "ending": null
+  },
+  "relaxed-family": {
+    "schemaVersion": 1,
+    "revision": 29,
+    "runId": "legacy-relaxed",
+    "mode": "relaxed",
+    "day": 1,
+    "phase": "family",
+    "caseIndex": 7,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "decisions": {
+      "D01-S01": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S02": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S03": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S04": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S05": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S06": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S07": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S08": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      }
+    },
+    "dialogueLine": 0,
+    "started": true,
+    "remainingMs": 60000,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "inside",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 40,
+    "ledger": [
+      {
+        "id": "case:D01-S01:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S01",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S02:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S02",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S03:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S03",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S04:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S04",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S05:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S05",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S06:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S06",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S07:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S07",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S08:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S08",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "day:1:salary",
+        "kind": "salary",
+        "amount": 10
+      },
+      {
+        "id": "day:1:rent",
+        "kind": "rent",
+        "amount": -20
+      },
+      {
+        "id": "day:1:electricity",
+        "kind": "electricity",
+        "amount": -20
+      },
+      {
+        "id": "day:1:tokens",
+        "kind": "tokens",
+        "amount": -20
+      }
+    ],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": true,
+    "supply": {
+      "electricity": true,
+      "tokens": true
+    },
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-30",
+      "gold-31",
+      "gold-32",
+      "gold-33",
+      "gold-34",
+      "gold-35",
+      "gold-36",
+      "gold-37",
+      "gold-38",
+      "gold-39",
+      "gold-40",
+      "gold-41",
+      "gold-42",
+      "gold-43",
+      "gold-44",
+      "gold-45",
+      "gold-46",
+      "gold-47",
+      "gold-48",
+      "gold-49",
+      "gold-50",
+      "gold-51",
+      "gold-52",
+      "gold-53",
+      "gold-54",
+      "gold-55",
+      "gold-56",
+      "gold-58"
+    ],
+    "ending": null
+  },
+  "relaxed-next-day": {
+    "schemaVersion": 1,
+    "revision": 30,
+    "runId": "legacy-relaxed",
+    "mode": "relaxed",
+    "day": 2,
+    "phase": "next-day",
+    "caseIndex": 7,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "decisions": {
+      "D01-S01": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S02": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S03": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S04": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S05": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S06": {
+        "decision": "reject",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S07": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S08": {
+        "decision": "allow",
+        "correct": true,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      }
+    },
+    "dialogueLine": 0,
+    "started": true,
+    "remainingMs": 60000,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "inside",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 40,
+    "ledger": [
+      {
+        "id": "case:D01-S01:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S01",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S02:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S02",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S03:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S03",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S04:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S04",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S05:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S05",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S06:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S06",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S07:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S07",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "case:D01-S08:wage",
+        "kind": "wage",
+        "amount": 5,
+        "caseId": "D01-S08",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "day:1:salary",
+        "kind": "salary",
+        "amount": 10
+      },
+      {
+        "id": "day:1:rent",
+        "kind": "rent",
+        "amount": -20
+      },
+      {
+        "id": "day:1:electricity",
+        "kind": "electricity",
+        "amount": -20
+      },
+      {
+        "id": "day:1:tokens",
+        "kind": "tokens",
+        "amount": -20
+      }
+    ],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": true,
+    "supply": {
+      "electricity": true,
+      "tokens": true
+    },
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-30",
+      "gold-31",
+      "gold-32",
+      "gold-33",
+      "gold-34",
+      "gold-35",
+      "gold-36",
+      "gold-37",
+      "gold-38",
+      "gold-39",
+      "gold-40",
+      "gold-41",
+      "gold-42",
+      "gold-43",
+      "gold-44",
+      "gold-45",
+      "gold-46",
+      "gold-47",
+      "gold-48",
+      "gold-49",
+      "gold-50",
+      "gold-51",
+      "gold-52",
+      "gold-53",
+      "gold-54",
+      "gold-55",
+      "gold-56",
+      "gold-58",
+      "gold-59"
+    ],
+    "ending": null
+  },
+  "standard-empty-night-paid": {
+    "schemaVersion": 1,
+    "revision": 4,
+    "runId": "legacy-ending",
+    "mode": "standard",
+    "day": 1,
+    "phase": "night",
+    "caseIndex": -1,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [],
+    "decisions": {},
+    "dialogueLine": 0,
+    "started": false,
+    "remainingMs": 0,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "cover",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 0,
+    "ledger": [
+      {
+        "id": "day:1:salary",
+        "kind": "salary",
+        "amount": 0
+      },
+      {
+        "id": "day:1:rent",
+        "kind": "rent",
+        "amount": -20
+      }
+    ],
+    "ordinaryErrors": 0,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": true,
+    "supply": null,
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "gold-60",
+      "gold-61"
+    ],
+    "ending": null
+  },
+  "standard-E13": {
+    "schemaVersion": 1,
+    "revision": 12,
+    "runId": "legacy-e13",
+    "mode": "standard",
+    "day": 1,
+    "phase": "ending",
+    "caseIndex": 1,
+    "caseIds": [
+      "D01-S01",
+      "D01-S02",
+      "D01-S03",
+      "D01-S04",
+      "D01-S05",
+      "D01-S06",
+      "D01-S07",
+      "D01-S08"
+    ],
+    "returned": [
+      "D01-S01"
+    ],
+    "decisions": {
+      "D01-S01": {
+        "decision": "reject",
+        "correct": false,
+        "penalty": 0,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      },
+      "D01-S02": {
+        "decision": "reject",
+        "correct": false,
+        "penalty": 10,
+        "ruleVersion": "V01",
+        "mark": {
+          "x": 165,
+          "y": 113
+        }
+      }
+    },
+    "dialogueLine": 0,
+    "started": true,
+    "remainingMs": 0,
+    "pauses": [],
+    "book": {
+      "x": 394,
+      "y": 150,
+      "width": 220,
+      "height": 152
+    },
+    "bookPage": "inside",
+    "rule": {
+      "x": 249,
+      "y": 131,
+      "width": 136,
+      "height": 170
+    },
+    "topPaper": "book",
+    "balance": 10,
+    "ledger": [
+      {
+        "id": "case:D01-S02:fine",
+        "kind": "fine",
+        "amount": -10,
+        "caseId": "D01-S02",
+        "ruleVersion": "V01"
+      },
+      {
+        "id": "day:1:salary",
+        "kind": "salary",
+        "amount": 0
+      }
+    ],
+    "ordinaryErrors": 2,
+    "seriousErrors": 0,
+    "notice": null,
+    "rentPaid": false,
+    "supply": null,
+    "family": {
+      "player": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "father": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "mother": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "wife": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      },
+      "son": {
+        "powerPressure": 0,
+        "tokenPressure": 0,
+        "damage": 0,
+        "memoryIntact": true
+      }
+    },
+    "appliedActions": [
+      "legacy-e13-0",
+      "legacy-e13-1",
+      "legacy-e13-2",
+      "legacy-e13-3",
+      "legacy-e13-4",
+      "legacy-e13-5",
+      "legacy-e13-6",
+      "legacy-e13-7",
+      "legacy-e13-8",
+      "legacy-e13-9"
+    ],
+    "ending": "E13"
+  }
+}
