@@ -41,11 +41,12 @@ describe('后期交易与失败边界',()=>{
     expect(validRun(s)).toBe(true);s=finishCampaignWork(s);s=act(s,{type:'settle'});s=act(s,{type:'supply',choice:{electricity:true,tokens:true}});s=act(s,{type:'next-day'});
     s=enterCampaignDay(s);expect(s.campaign!.mail.some(m=>m.id==='cousin')).toBe(false);expect(s.campaign!.commission).toBe(false);
   },30000);
+  // campaignStart(30) plays 29 complete days, rather than a small unit fixture.
   it('宽免后同日新行为仍生成新的审计事实',()=>{
     const s=campaignStart(30);s.campaign!.flags.push('liang-contract');recordAudit(s,'a','测试已记录处置');recordAudit(s,'b','测试已记录处置');recordAudit(s,'c','测试已记录处置');
     s.phase='correspondence';let m=pendingMail(s);
     while(m&&m.id!=='contact-check'){s.campaign!.mail.push({id:m.id,day:30,option:m.options[0].id});m=pendingMail(s);}
     expect(m?.id).toBe('contact-check');const after=act(s,{type:'mail',id:'contact-check',option:'submit'});expect(auditPoints(after)).toBe(0);
     recordAudit(after,'d','核验表交回后又一宗实际违规');expect(auditPoints(after)).toBe(2);
-  });
+  },30000);
 });

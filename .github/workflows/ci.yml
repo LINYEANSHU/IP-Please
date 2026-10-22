@@ -38,10 +38,10 @@ jobs:
         run: npx playwright install --with-deps chromium chrome
       - name: Browser regression (Linux virtual display)
         if: runner.os == 'Linux'
-        run: xvfb-run -a npm run test:e2e
+        run: xvfb-run -a npm run test:e2e -- --max-failures=1
       - name: Browser regression (Windows and macOS)
         if: runner.os != 'Linux'
-        run: npm run test:e2e
+        run: npm run test:e2e -- --max-failures=1
       - name: Upload failure evidence
         if: failure()
         uses: actions/upload-artifact@v4
