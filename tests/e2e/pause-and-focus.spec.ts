@@ -28,6 +28,7 @@ test('素材加载完成前不扣标准班计时，释放加载后恢复',async(
   await start(page,'标准值班');
   await page.getByRole('button',{name:'下一位',exact:true}).click();
   await page.getByRole('button',{name:'知道了，开始办件'}).click();
+  await expect.poll(async()=>(await readState(page)).pauses).not.toContain('tutorial');
   await expect.poll(async()=>(await readState(page)).caseIndex).toBe(0);
   expect(await readState(page)).toMatchObject({mode:'standard',phase:'desk',started:true});
 

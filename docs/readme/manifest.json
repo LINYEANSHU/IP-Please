@@ -1,0 +1,127 @@
+{
+  "kind": "actual-gameplay-captures",
+  "renderer": "Playwright Chromium",
+  "server": "Vite production preview",
+  "date": "2026-10-22",
+  "screenshots": [
+    {
+      "file": "desk-en-1280.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "5d0d9664992bf12d6783643748098335de832b225329dc9ab21b2e3f98e98f2b",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "desk-en-1920.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "24bff13b624572dc9707aa984bf62303e02aa4b984de3983179f773a96131f16",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "desk-zh-1280.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "95db8c7afb2b55b7ebe76e70e42891ec24c8413799aa67ae6d0b1160275c950d",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "desk-zh-1920.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "ca2e3b03a68cf11dbae8d85c0261fd9a94b8819ecc87eb6f60e37229bfa18801",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "ending-en-E01.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c166230ab9a3ddd143aecb484d828a29d7aa739a9350c281ccf8a84228480694",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "ending-en-E10.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "fea7d2b2cda5a8987f09c66600660284349b88d13a3d158e6c66871c6b98e103",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "family-en.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "42df1304476bcbdd058a798b9c0febe0e7953812630e095892c98fc2ce82c098",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "mail-en.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "38ebce218532067131ca466d731051c61c785219536e431f714e9e6da4322527",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "newspaper-en-d17.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8466fc09f77b4f9b5be4da3445996e472c46578788f075b03c16128ce17fa5ca",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "newspaper-en-d23.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "afa601aed703404f778b57c728470cef0f096cf2ff99c127c443164c20250004",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "newspaper-en-d26.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "e96bb45aac6588a57f3f9becd6db4be899c6e725f5cb650dc3ac1885b16b76ed",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "newspaper-en-d31.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c4a30c8c3b67633b983204b1a4abe40c5ad5abe24adfe0a3196975a5446880f0",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "newspaper-en-d8.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "3ab189f2f3f0bd203997fcdee747d6aa9f6d7bfadf66ccef31c63c9858e9837f",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "night-en.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "427d70ba760fc3c37ca3c491d06d2734e3bb4b568ae11cb9b2fde6057adf1bd5",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "reader-en-1280.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "1b8830cb9ec742ffcd75e5122250d9f2ddc5e3b78308c84057c7d640bb435e9c",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "reader-en-1920.png",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "cbfaeac31070c2c70aa132b020603801d22c0eb94493d9eb4141a0965e708c64",
+      "source": "tests/e2e/i18n.spec.ts"
+    },
+    {
+      "file": "rescue-en.png",
+      "width": 1280,
+      "height": 720,
+      "sha256": "8d165c48914bb3813151c0ee1baa3d5bbc9ab948eae007061806ea407a0b7a1a",
+      "source": "tests/e2e/i18n.spec.ts"
+    }
+  ]
+}

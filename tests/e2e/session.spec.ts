@@ -1,4 +1,6 @@
 import {test,expect} from '@playwright/test';
+// This fixture deliberately exercises storage modules directly, outside the game bundle.
+test.use({baseURL:'http://127.0.0.1:5173'});
 test('事务保存后刷新只入账一次，接管撤销旧窗口写权',async({page,context})=>{
   await page.goto('/tests/fixtures/session.html');
   await page.getByRole('button',{name:'盖允许章'}).click();

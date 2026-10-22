@@ -1,4 +1,5 @@
 import {REGIONS} from '../domain/day-one';
+import {t,getLanguage} from '../i18n';
 import {getDay} from '../domain/week';
 import {currentCase} from '../domain/run';
 import {deskPaperFields,PAPER_NAMES} from './papers';
@@ -18,7 +19,14 @@ export function renderDesk(ctx:CanvasRenderingContext2D,state:RunState|null,asse
   ctx.clearRect(0,0,640,360);
   ctx.imageSmoothingEnabled=true;ctx.imageSmoothingQuality='high';ctx.textBaseline='top';
   const rect=(x:number,y:number,w:number,h:number,c:string)=>{ctx.fillStyle=c;ctx.fillRect(Math.round(x),Math.round(y),w,h);};
-  const text=(t:string,x:number,y:number,size=10,c=C.paper)=>{ctx.font=`${size}px ${CJK_FONT}`;ctx.fillStyle=c;ctx.fillText(t,Math.round(x),Math.round(y));};
+  const text=(source:string,x:number,y:number,size=10,c=C.paper)=>{
+    const value=t(source);ctx.font=`${size}px ${CJK_FONT}`;ctx.fillStyle=c;
+    // English expands substantially; fit each line inside its physical paper.
+    const paperBounds=state&&[state.book,state.rule,...Object.values(state.papers)].find(r=>x>=r.x&&x<r.x+r.width&&y>=r.y&&y<r.y+r.height);
+    const pageEnd=state&&paperBounds===state.book&&state.bookPage==='inside'&&x<state.book.x+110?state.book.x+105:paperBounds?paperBounds.x+paperBounds.width-5:634;
+    const maxWidth=getLanguage()==='en'?Math.max(12,pageEnd-x):undefined;
+    ctx.fillText(value,Math.round(x),Math.round(y),maxWidth);
+  };
   const line=(x:number,y:number,w:number,c=C.line)=>rect(x,y,w,1,c);
   const image=(id:string,x:number,y:number,w:number,h:number)=>{
     const p=assets.portraits[id];if(!p)return;
@@ -186,7 +194,7 @@ export function renderDesk(ctx:CanvasRenderingContext2D,state:RunState|null,asse
     text(PAPER_NAMES[definition.kind],r.x+7,r.y+7,11,C.ink);line(r.x+6,r.y+23,r.width-12,'#87836d');
     const rows=deskPaperFields(definition,r.height),spacing=13;
     rows.forEach(([label,value],i)=>{
-      const full=`${label} ${value}`;ctx.font=`10px ${CJK_FONT}`;
+      const full=t(`${label} ${value}`);ctx.font=`10px ${CJK_FONT}`;
       let fitted=full;while(ctx.measureText(fitted).width>r.width-14&&fitted.length>1)fitted=fitted.slice(0,-1);
       text(fitted.length<full.length?fitted.slice(0,-1)+'…':fitted,r.x+7,r.y+29+i*spacing,10,C.ink);
     });

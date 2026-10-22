@@ -1,4 +1,5 @@
 import './view/styles.css';
+import {getLanguage,setLanguage,t as tDisplay,localizeTree} from './i18n';
 import {newRun,reduceRun,currentCase as runCase} from './domain/run';
 import type {RunState,ActionBody,Transition,SupplyChoice} from './domain/run';
 import {paperOrder,paperBounds,deskControlsClip} from './view/papers';
@@ -23,6 +24,8 @@ const inspectLayer=document.createElement('div');inspectLayer.id='inspection-ui'
 const inspectButton=document.createElement('button');inspectButton.dataset.action='toggle-inspection';inspectButton.textContent='字段核对';inspectButton.title='查看可核对字段 · 快捷键 I';inspectButton.setAttribute('aria-pressed','false');
 app.querySelector('.header-actions')!.prepend(inspectButton);
 const readButton=document.createElement('button');readButton.dataset.action='read-current';readButton.textContent='材料原文';readButton.setAttribute('aria-label','阅读置顶材料原文');inspectButton.after(readButton);
+const languageButton=document.createElement('button');languageButton.dataset.action='toggle-language';languageButton.dataset.noTranslate='';
+app.querySelector('.header-actions')!.append(languageButton);
 const saveStatus=app.querySelector<HTMLSpanElement>('#save-status')!,instructions=app.querySelector<HTMLDivElement>('#instructions')!;
 let state:RunState|null=null,assets:AssetCatalog={portraits:{}},loaded=false,panel:'settings'|'reader'|null=null,documentId:string|null=null;
 let error:string|null=null,pending:Transition|null=null,assetFailure=false,corridorUrl='',shellKey='',hint='',reviewFamily=false;
@@ -121,6 +124,11 @@ function paint(){
   const audioButton=app.querySelector<HTMLButtonElement>('[data-action="toggle-effects"]')!;
   audioButton.textContent=`音效 ${effects?'开':'关'}`;audioButton.setAttribute('aria-label',effects?'关闭音效':'开启音效');
   sound.setAudioLevels(music?.6:0,effects?.35:0);sound.setMusic(music&&!!loaded&&(!state||state.phase==='newspaper')&&!panel);
+  document.documentElement.lang=getLanguage();
+  document.title=getLanguage()==='en'?'IP Please · A÷ Inspection Desk':'IP Please：请出示 IP';
+  languageButton.textContent=getLanguage()==='en'?'简体中文':'English';
+  languageButton.setAttribute('aria-label',getLanguage()==='en'?'Switch to Simplified Chinese':'Switch to English');
+  localizeTree(app);
 }
 function syncPaperLayer(){
   const controls=ui.querySelector<HTMLElement>('.desk-controls');
@@ -143,7 +151,7 @@ function playEffects(t:Transition){
 let chain=Promise.resolve();
 async function save(t:Transition){
   if(t.state===state)return;
-  saveStatus.textContent='保存中';const result=await commitTransition(state,t,lease);
+  saveStatus.textContent=tDisplay('保存中');const result=await commitTransition(state,t,lease);
   if(result.ok){
     const previousPhase=state?.phase;
     state=result.state;pending=null;error=null;saveStatus.textContent='已自动保存';
@@ -181,8 +189,9 @@ async function initAssets(){
   }catch(e){assetFailure=true;error=`人物或字体载入失败：${String(e)}。请保持素材目录完整并重试。`;paint();}
 }
 function cancelDrag(){
-  if(drag&&canvas.hasPointerCapture(drag.pointerId)){try{canvas.releasePointerCapture(drag.pointerId);}catch{/* pointer already released */}}
+  const pointerId=drag?.pointerId;
   drag=null;dragVisual=undefined;keyboardTool=null;canvas.style.cursor='default';
+  if(pointerId!==undefined&&canvas.hasPointerCapture(pointerId)){try{canvas.releasePointerCapture(pointerId);}catch{/* pointer already released */}}
 }
 function selectTool(kind:Decision){
   if(!interactive()||!present()||!state||!paperBounds(state,'book'))return;
@@ -201,6 +210,10 @@ async function keyboardStamp(){
 function preferences(){sound.setAudioLevels(music?.6:0,effects?.35:0);try{localStorage.setItem('ip-please:audio',JSON.stringify({effects,music}));}catch{/* Preferences never block the run transaction. */}paint();}
 async function action(name:string){
   sound.unlockAudio();
+  if(name==='toggle-language'){
+    setLanguage(getLanguage()==='en'?'zh-CN':'en');cancelDrag();shellKey='';
+    paint();updateCorridor();paint();return;
+  }
   if(name==='reload'){location.reload();return;}
   if(name==='retry'){
     if(assetFailure){error=null;await initAssets();return;}
@@ -246,7 +259,7 @@ async function action(name:string){
     if(panel){const previous=panel;panel=null;documentId=null;await dispatch({type:'pause',reason:previous==='reader'?'reader':'settings',paused:false});}paint();return;
   }
   if(name==='restart'){
-    if(!window.confirm('结束本局并开始新的值班？当前唯一进度会被替换。'))return;
+    if(!window.confirm(tDisplay('结束本局并开始新的值班？当前唯一进度会被替换。')))return;
     cancelDrag();sound.stopFeedback();const r=await eraseRun(lease);if(r.ok){state=null;error=null;pending=null;panel=null;documentId=null;reviewFamily=false;choice={electricity:false,tokens:false};saveStatus.textContent='本地续玩';}else error=r.reason;paint();return;
   }
   if(panel)return;
@@ -285,7 +298,7 @@ app.addEventListener('change',e=>{
   if(el.id==='music-setting'){music=el.checked;preferences();}
 });
 canvas.addEventListener('pointerdown',e=>{
-  if(e.button!==0||!interactive()||!state)return;
+  if(drag||!e.isPrimary||e.button!==0||!interactive()||!state)return;
   const p=toWorldPoint(e.clientX,e.clientY,canvas.getBoundingClientRect());if(!p)return;
   sound.unlockAudio();canvas.focus();hint='';
   let kind:Drag['kind']|null=null;
@@ -337,7 +350,7 @@ canvas.addEventListener('pointerup',e=>{
   else if(d.move)void dispatch({type:'move',paper:d.kind,x:p.x-d.dx,y:p.y-d.dy});
   else if(d.kind==='book')void dispatch({type:'open-book'});else if(d.kind==='rule')void action('reader');else void dispatch({type:'raise',paper:d.kind});
 });
-for(const type of ['pointercancel','lostpointercapture'])canvas.addEventListener(type,()=>{if(drag){cancelDrag();paint();}});
+for(const type of ['pointercancel','lostpointercapture'] as const)canvas.addEventListener(type,e=>{if(drag?.pointerId===e.pointerId){cancelDrag();paint();}});
 window.addEventListener('keydown',e=>{
   if(supplyWarning&&e.key==='Escape'){e.preventDefault();void action('dismiss-supply-warning');return;}
   if(!(e.target instanceof HTMLInputElement)&&e.key.toLowerCase()==='i'&&canInspect()){e.preventDefault();void action('toggle-inspection');return;}

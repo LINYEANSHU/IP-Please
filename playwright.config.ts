@@ -6,5 +6,9 @@ export default defineConfig({
   use:{baseURL,viewport:{width:1280,height:720},headless:true,
     launchOptions:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH?{executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH}:{},
     screenshot:'only-on-failure',trace:'retain-on-failure'},
-  webServer:{command:production?'npm run preview -- --port 4173 --strictPort':'npm run dev -- --port 5173 --strictPort',url:baseURL,reuseExistingServer:!process.env.CI},
+  webServer:[
+    {command:production?'npm run preview -- --port 4173 --strictPort':'npm run dev -- --port 5173 --strictPort',url:baseURL,reuseExistingServer:!process.env.CI},
+    // The isolated storage fixture imports source modules and is not a shipped route.
+    ...(production?[{command:'npm run dev -- --port 5173 --strictPort',url:'http://127.0.0.1:5173',reuseExistingServer:!process.env.CI}]:[]),
+  ],
 });
